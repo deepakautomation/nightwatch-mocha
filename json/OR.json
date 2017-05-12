@@ -1,0 +1,46 @@
+{
+
+    "testsiteurl": "http://localhost/index.html",
+
+    "locators": {
+
+        "BasePage": {
+
+            "ToDoField": "//input[@class='new-todo']",
+            "CheckBox_1": "(//input[@class='toggle'][@type='checkbox'])[",
+            "CheckBox_2": "]",
+            "ActiveBtn": "//a[contains(text(),'Active')]"
+
+
+        },
+        "completedPage": {
+
+
+            "completedBtn": "//a[contains(text(),'Completed')]",
+            "verifyChecked": "(//input[@class='toggle'][@type='checkbox'][@checked=''])[1]"
+        },
+
+        "activePage": {
+
+
+            "activeBtn": "//a[contains(text(),'Active')]",
+            "verifyUnchecked": "(//input[@class='toggle'][@type='checkbox'])[1]"
+        }
+    },
+
+    "testdata": {
+
+
+        "data1": "selenium",
+        "data2": "nightwatch",
+        "data3": "protractor"
+
+
+    }
+
+
+
+
+
+
+}

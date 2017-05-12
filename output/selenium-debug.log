@@ -1,0 +1,79 @@
+18:27:33.868 INFO - Launching a standalone Selenium Server
+18:27:33.981 INFO - Java: Oracle Corporation 25.131-b11
+18:27:33.981 INFO - OS: Windows 10 10.0 amd64
+18:27:33.993 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+18:27:34.050 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+18:27:34.050 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+18:27:34.059 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+18:27:34.060 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+18:27:34.060 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+18:27:34.226 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:27:34.226 INFO - Selenium Server is up and running
+18:27:34.637 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+18:27:34.646 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 42835
+Only local connections are allowed.
+18:27:37.305 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+18:27:37.319 INFO - Executing: [maximise window])
+18:27:38.470 INFO - Done: [maximise window]
+18:27:38.477 INFO - Executing: [get: http://localhost/index.html])
+18:27:38.971 INFO - Done: [get: http://localhost/index.html]
+18:27:38.980 INFO - Executing: [find elements: By.xpath: //input[@class='new-todo']])
+18:27:39.020 INFO - Done: [find elements: By.xpath: //input[@class='new-todo']]
+18:27:39.028 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]])
+18:27:39.062 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]]
+18:27:39.068 INFO - Executing: [find element: By.xpath: //input[@class='new-todo']])
+18:27:39.090 INFO - Done: [find element: By.xpath: //input[@class='new-todo']]
+18:27:39.094 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [s, e, l, e, n, i, u, m, ?]])
+18:27:39.207 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [s, e, l, e, n, i, u, m, ?]]
+18:27:39.215 INFO - Executing: [find elements: By.xpath: //input[@class='new-todo']])
+18:27:39.224 INFO - Done: [find elements: By.xpath: //input[@class='new-todo']]
+18:27:39.227 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]])
+18:27:39.240 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]]
+18:27:39.245 INFO - Executing: [find element: By.xpath: //input[@class='new-todo']])
+18:27:39.254 INFO - Done: [find element: By.xpath: //input[@class='new-todo']]
+18:27:39.259 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [n, i, g, h, t, w, a, t, c, h, ?]])
+18:27:39.345 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [n, i, g, h, t, w, a, t, c, h, ?]]
+18:27:39.351 INFO - Executing: [find elements: By.xpath: //input[@class='new-todo']])
+18:27:39.363 INFO - Done: [find elements: By.xpath: //input[@class='new-todo']]
+18:27:39.366 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]])
+18:27:39.376 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']]]
+18:27:39.381 INFO - Executing: [find element: By.xpath: //input[@class='new-todo']])
+18:27:39.390 INFO - Done: [find element: By.xpath: //input[@class='new-todo']]
+18:27:39.394 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [p, r, o, t, r, a, c, t, o, r, ?]])
+18:27:39.469 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //input[@class='new-todo']], [p, r, o, t, r, a, c, t, o, r, ?]]
+18:27:39.489 INFO - Executing: [find element: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]])
+18:27:39.513 INFO - Done: [find element: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]]
+18:27:39.517 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[1]]])
+18:27:39.582 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[1]]]
+18:27:39.586 INFO - Executing: [find element: By.xpath: (//input[@class='toggle'][@type='checkbox'])[2]])
+18:27:39.608 INFO - Done: [find element: By.xpath: (//input[@class='toggle'][@type='checkbox'])[2]]
+18:27:39.611 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[2]]])
+18:27:39.686 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[2]]]
+18:27:39.692 INFO - Executing: [find element: By.xpath: //a[contains(text(),'Active')]])
+18:27:39.723 INFO - Done: [find element: By.xpath: //a[contains(text(),'Active')]]
+18:27:39.730 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Active')]]])
+18:27:39.806 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Active')]]]
+18:27:39.817 INFO - Executing: [find element: By.xpath: //a[contains(text(),'Completed')]])
+18:27:39.846 INFO - Done: [find element: By.xpath: //a[contains(text(),'Completed')]]
+18:27:39.849 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Completed')]]])
+18:27:39.926 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Completed')]]]
+18:27:39.931 INFO - Executing: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]])
+18:27:39.960 INFO - Done: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]]
+18:27:39.964 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]]])
+18:27:39.986 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]]]
+18:27:39.990 INFO - Executing: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]])
+18:27:40.001 INFO - Done: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'][@checked=''])[1]]
+18:27:40.008 INFO - Executing: [find element: By.xpath: //a[contains(text(),'Active')]])
+18:27:40.020 INFO - Done: [find element: By.xpath: //a[contains(text(),'Active')]]
+18:27:40.025 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Active')]]])
+18:27:40.075 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: //a[contains(text(),'Active')]]]
+18:27:40.079 INFO - Executing: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]])
+18:27:40.110 INFO - Done: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]]
+18:27:40.116 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[1]]])
+18:27:40.137 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on XP (400d1d50d0772a1340fe9f574c4bd2c8)] -> xpath: (//input[@class='toggle'][@type='checkbox'])[1]]]
+18:27:40.141 INFO - Executing: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]])
+18:27:40.153 INFO - Done: [find elements: By.xpath: (//input[@class='toggle'][@type='checkbox'])[1]]
+18:27:40.160 INFO - Executing: [delete session: e947d41a-77e1-412c-bd0f-8968646f6bdc])
+18:27:41.343 INFO - Done: [delete session: e947d41a-77e1-412c-bd0f-8968646f6bdc]
